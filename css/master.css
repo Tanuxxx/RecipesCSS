@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 210px;
+    padding-right: 210px;
+    width: 1000px;
+    height: 93px;
+    background: #f7f7f7;
+}
+.copyright {
+    width: 195px;
+    height: 13px;
+    opacity: 0.5;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(139, 139, 139, 0.5);
+}
+
+.designed {
+    width: 289px;
+    height: 10px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: #000000;
+}
+
+.designed_link {
+    font-weight: 300;
+    color: #8b8b8b;
+}
