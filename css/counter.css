@@ -9,7 +9,7 @@
     padding-right: 210px;
 }
 
-.counter_value {
+.counter_values {
     display: flex;
     height: 32px;
     font-size: 36px;
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.counter_label {
+.counter_labels {
     display: flex;
     height: 13px;
     font-size: 16px;
@@ -28,10 +28,10 @@
     letter-spacing: 0.8px;
     text-align: center;
 }
-.counter_value1 {
+.counter_value {
     width: 20%;
 }
 
-.counter_label1 {
+.counter_label {
     width: 20%;
 }
