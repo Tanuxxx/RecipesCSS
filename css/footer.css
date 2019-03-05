@@ -1,8 +1,6 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding-left: 210px;
-    padding-right: 210px;
     align-items: center;
     height: 93px;
     background: #f7f7f7;

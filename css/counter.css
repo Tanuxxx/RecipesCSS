@@ -1,16 +1,12 @@
-.counter {
+.counters {
     height: 170px;
     font-family: Lato, sans-serif;
     display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-content: center;
-    padding-left: 210px;
-    padding-right: 210px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.counter_values {
-    display: flex;
+.counter_value {
     height: 32px;
     font-size: 36px;
     font-weight: bold;
@@ -19,19 +15,11 @@
     text-align: center;
 }
 
-.counter_labels {
-    display: flex;
-    height: 13px;
+.counter_label {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.13;
     letter-spacing: 0.8px;
     text-align: center;
 }
-.counter_value {
-    width: 20%;
-}
 
-.counter_label {
-    width: 20%;
-}
