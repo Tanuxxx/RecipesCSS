@@ -1,0 +1,90 @@
+.browse_by_cuisines {
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+}
+
+.browse_by_cuisines::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: block;
+    background-color: #f37469;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 46.5%;
+    margin-bottom: 2%;
+}
+
+.cuisines {
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cuisine {
+    width: 20%;
+    height: 200px;
+    background-size: contain;
+    text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recipes_amount {
+    opacity: 0.9;
+    font-family: TimesNewRomanPS-MT, serif;
+    font-size: 15.4px;
+    font-style: italic;
+}
+
+.country {
+    font-family: Lato, sans-serif;
+    font-size: 35.9px;
+}
+
+.cuisine_italian {
+    background-image: url(../images/italian.png);
+}
+
+.cuisine_indian {
+    background-image: url(../images/indian.png);
+}
+
+.cuisine_french {
+    background-image: url(../images/french.png);
+}
+
+.cuisine_steakhouse {
+    background-image: url(../images/steakhouse.png);
+}
+
+.cuisine_seafood {
+    background-image: url(../images/seafood.png);
+}
+
+.cuisine_sushi {
+    background-image: url(../images/sushi.png);
+}
+
+.cuisine_mexican {
+    background-image: url(../images/mexican.png);
+}
+
+.cuisine_chinese {
+    background-image: url(../images/chinese.png);
+}
+
+.cuisine_pizza {
+    background-image: url(../images/pizza.png);
+}
+
+.cuisine_american {
+    background-image: url(../images/american.png);
+}
