@@ -27,12 +27,14 @@
 .cuisine {
     width: 20%;
     height: 200px;
-    background-size: contain;
+    background-size: cover;
     text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
     color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    align-content: center;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .recipes_amount {
@@ -48,41 +50,41 @@
 }
 
 .cuisine_italian {
-    background: url(../images/italian.png);
+    background-image: url(../images/cuisines/italian.png);
 }
 
 .cuisine_indian {
-    background: url(../images/indian.png);
+    background-image: url(../images/cuisines/indian.png);
 }
 
 .cuisine_french {
-    background: url(../images/french.png);
+    background-image: url(../images/cuisines/french.png);
 }
 
 .cuisine_steakhouse {
-    background: url(../images/steakhouse.png);
+    background-image: url(../images/cuisines/steakhouse.png);
 }
 
 .cuisine_seafood {
-    background: url(../images/seafood.png);
+    background-image: url(../images/cuisines/seafood.png);
 }
 
 .cuisine_sushi {
-    background: url(../images/sushi.png);
+    background-image: url(../images/cuisines/sushi.png);
 }
 
 .cuisine_mexican {
-    background: url(../images/mexican.png);
+    background-image: url(../images/cuisines/mexican.png);
 }
 
 .cuisine_chinese {
-    background: url(../images/chinese.png);
+    background-image: url(../images/cuisines/chinese.png);
 }
 
 .cuisine_pizza {
-    background: url(../images/pizza.png);
+    background-image: url(../images/cuisines/pizza.png);
 }
 
 .cuisine_american {
-    background: url(../images/american.png);
+    background-image: url(../images/cuisines/american.png);
 }
