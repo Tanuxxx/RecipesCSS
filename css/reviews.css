@@ -7,7 +7,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
 }
 
 .reviewer {
@@ -17,34 +16,48 @@
     background-position: center;
     background-image: url(../images/reviews/avatar.png);
     border-radius: 50%;
-    border-image: 10;
     border-style: solid;
     border-color: #958b95;
+    border-width: thick;
 }
 
 .review {
-    width: 886px;
-    height: 112px;
     font-family: Lato, sans-serif;
     font-size: 30px;
     font-weight: 100;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.2;
-    letter-spacing: normal;
-    color: rgba(255, 255, 255, 0.9);
+    color: #a59ea5;
+    text-align: center;
+    margin-top: 1%;
 }
 
 .review_signature {
     font-size: 18px;
     font-style: italic;
+    margin-top: 2%;
 }
 
-.review_signature::after {
-    content: "";
+.carousel {
+    width: 3.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5%;
+}
+
+.carousel_el {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+.carousel_el_1 {
     background-color: rgba(255, 255, 255, 0.9);
-    display: block;
+}
+
+.carousel_el_2 {
+    background-color: #7a6e7a
+}
+
+.carousel_el_3 {
+    background-color: #7a6e7a
 }

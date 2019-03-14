@@ -1,0 +1,66 @@
+.info {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.info_logo_border {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #1c1919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_logo {
+    width: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+.inspiration_logo {
+    height: 60px;
+    background-image: url(../images/info/inspiration.png);
+}
+
+.reward_logo {
+    height: 32px;
+    background-image: url(../images/info/reward.png);
+}
+
+.social_logo {
+    height: 60px;
+    background-image: url(../images/info/social.png);
+}
+
+.info_title {
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: 0.9px;
+    color: #1c1919;
+    margin-top: 5%;
+}
+
+.info_text {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.13;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    margin-top: 6%;
+}
