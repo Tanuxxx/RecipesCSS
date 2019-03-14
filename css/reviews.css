@@ -18,6 +18,8 @@
     background-image: url(../images/reviews/avatar.png);
     border-radius: 50%;
     border-image: 10;
+    border-style: solid;
+    border-color: #958b95;
 }
 
 .review {
@@ -36,4 +38,13 @@
 .review_signature {
     font-size: 18px;
     font-style: italic;
+}
+
+.review_signature::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: block;
 }
