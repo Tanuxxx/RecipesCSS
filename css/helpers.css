@@ -3,12 +3,23 @@
     padding-right: 210px;
 }
 
-.underline::after {
+.underline_left::after {
     content: "";
     width: 100px;
     height: 1px;
     display: block;
     background-color: #f37469;
-    margin-top: 1%;
-    margin-bottom: 2%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+/*Implemented review. Have no idea how it should align by center, aligned with flex instead*/
+.underline_center::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    display: block;
+    background-color: #f37469;
+    margin-top: 2px;
+    margin-bottom: 5px;
 }

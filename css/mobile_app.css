@@ -51,13 +51,3 @@
     background-size: cover;
     background-position: center;
 }
-
-.app_store {
-    width: 112px;
-    background-image: url(../images/mobile_app/app_store.png);
-}
-
-.google_play {
-    width: 120px;
-    background-image: url(../images/mobile_app/google_play.png);
-}
