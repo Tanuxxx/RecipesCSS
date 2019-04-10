@@ -24,3 +24,14 @@
     color: #000000;
     text-decoration: none;
 }
+
+@media(max-width: 935px) {
+    .footer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .copyright {
+        margin-bottom: 5px;
+    }
+}

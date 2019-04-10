@@ -25,20 +25,20 @@
     line-height: 1.2;
     color: #a59ea5;
     text-align: center;
-    margin-top: 1%;
+    margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 .review_signature {
     font-size: 18px;
     font-style: italic;
-    margin-top: 2%;
+    margin-top: 15px;
 }
 
 .carousel {
-    width: 3.5%;
+    width: 40px;
     display: flex;
     justify-content: space-between;
-    margin-top: 2.5%;
 }
 
 .carousel_el {
@@ -57,4 +57,10 @@
 
 .carousel_el_3 {
     background-color: #7a6e7a
+}
+
+@media(max-width: 470px) {
+    .review {
+        font-size: 25px;
+    }
 }

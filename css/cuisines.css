@@ -5,16 +5,13 @@
     font-size: 18px;
     letter-spacing: 0.9px;
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .cuisines {
     font-family: Lato, sans-serif;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .cuisine {
@@ -81,4 +78,38 @@
 
 .cuisine_american {
     background-image: url(../images/cuisines/american.png);
+}
+
+@media(max-width: 1170px) {
+    .country {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1020px) {
+    .country {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 930px) {
+    .country {
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 830px) {
+    .country {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 800px) {
+    .cuisine {
+        width: 50%;
+    }
+
+    .country {
+        font-size: 35.9px;
+    }
 }

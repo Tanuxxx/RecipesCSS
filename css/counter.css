@@ -23,3 +23,43 @@
     text-align: center;
 }
 
+@media(max-width: 1140px) {
+    .counter_value {
+        font-size: 30px;
+    }
+
+    .counter_label {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1070px) {
+    .counter_value {
+        font-size: 27px;
+    }
+
+    .counter_label {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1005px) {
+    .counter_value {
+        font-size: 36px;
+    }
+
+    .counter_label {
+        font-size: 16px;
+    }
+
+    .counters {
+        height: 380px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .counter {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

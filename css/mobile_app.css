@@ -51,3 +51,19 @@
     background-size: cover;
     background-position: center;
 }
+
+@media(max-width: 1180px) {
+    .smartphone {
+        display: none;
+    }
+
+    .mobile_app {
+        height: 500px;
+        justify-content: center;
+    }
+
+    .app_info {
+        width: 400px;
+        padding-right: 0;
+    }
+}
